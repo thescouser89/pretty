@@ -9,6 +9,14 @@ default: &default
   pool: 5
   timeout: 5000
 
+# development:
+#     adapter: postgresql
+#     database: ett
+#     pool: 5
+#     timeout: 5000
+#     username: weinan
+
+# dcheung: found below is the original development database setting
 development:
   <<: *default
   database: db/development.sqlite3
