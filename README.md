@@ -31,6 +31,10 @@ Things you may want to cover:
 # TODO
 
 - [ ] Cleanup ETT database before migration to Rails 5
-- [ ] Migrate schema and add monels, keep models stable
+  - [ ] Port the existing models on Rails 2 to Rails 5
+  - [ ] Write unit tests for the models to uncover issues
+  - [ ] Delimit the rails5 specific changes with a guard on both Rails2 and Rails5 code
+  - [ ] Continue until all unit tests pass
+- [ ] Migrate schema and add models, keep models stable
 - [ ] Work on controllers
 - [ ] Rewrite view from scratch using Patternfly
